@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Middl4 M3n_60\\PessoaAPI\\PessoaAPI.csproj": {}
+    "/home/jorge-veloso/Documentos/web_api/PessoaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Middl4 M3n_60\\PessoaAPI\\PessoaAPI.csproj": {
+    "/home/jorge-veloso/Documentos/web_api/PessoaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Middl4 M3n_60\\PessoaAPI\\PessoaAPI.csproj",
+        "projectUniqueName": "/home/jorge-veloso/Documentos/web_api/PessoaAPI.csproj",
         "projectName": "PessoaAPI",
-        "projectPath": "C:\\Users\\Middl4 M3n_60\\PessoaAPI\\PessoaAPI.csproj",
-        "packagesPath": "C:\\Users\\Middl4 M3n_60\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Middl4 M3n_60\\PessoaAPI\\obj\\",
+        "projectPath": "/home/jorge-veloso/Documentos/web_api/PessoaAPI.csproj",
+        "packagesPath": "/home/jorge-veloso/.nuget/packages/",
+        "outputPath": "/home/jorge-veloso/Documentos/web_api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Middl4 M3n_60\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/jorge-veloso/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -32,21 +32,19 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[8.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
@@ -68,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/var/snap/dotnet/common/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
